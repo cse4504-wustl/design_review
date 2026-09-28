@@ -140,6 +140,7 @@ interface WithdrawPlayerPresenter
 
 To build a CLI, every interface will need a concrete implementation. List these interface implementations in DESIGN.md file and assign an owner to each. 
 
+**Step 0: Add an Interface Implementations** section to DESIGN.md 
 **Step 1: List every implementation.** For each interface from Part 2, decide on a concrete implementation you want to have. For example:
 
 - A `TournamentRepository` interface that saves to a local file `FileTournamentRepository`, or an `InMemoryTournamentRepository` that keeps tournaments in a list or map while the program runs.
