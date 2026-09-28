@@ -1,6 +1,6 @@
 # Application Design Review Studio
 
-In this studio, your team will audit its request objects, discover the abstract interfaces your use cases need, and assign every concrete implementation to a named teammate. This corresponds to the "In class design in a feature branch" step of the workflow; all changes go into the `cli` branch.
+In this studio, your team will audit the request objects from your original design, discover the abstract interfaces your use cases need, and assign every concrete implementation to a named teammate. This corresponds to the "In class design in a feature branch" step of the workflow; all changes go into the `cli` branch of your team project repository.
 
 By the end of class, you should be able to:
 
