@@ -164,9 +164,9 @@ Concrete implementations live outside the boundary. Presenters go in the existin
 
 **Rules for a fair split:**
 
-1. Everyone owns at least one implementation that someone *else's* use case depends on.
+1. Everyone owns at least one implementation.
 2. Balance the load: integration with 3rd party tools is heavier than a console presenter, so its owner takes fewer other items.
-3. Changing a shared interface after today requires a separate, dedicated pull request reviewed by every teammate.
+3. Changing a shared interface after today (an interface needed by multiple use cases) requires a separate, dedicated pull request reviewed by every teammate.
 
 ## Deliverables
 
