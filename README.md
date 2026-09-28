@@ -138,11 +138,11 @@ interface WithdrawPlayerPresenter
 
 ## Part 3: Split up the implementations (5 min)
 
-Every interface needs a concrete implementation for the CLI. In class, the team lists them and gives each one an owner.
+To build a CLI, every interface will need a concrete implementation. List these interface implementations in DESIGN.md file and assign an owner to each. 
 
-**Step 1: List every implementation.** For each interface from Part 2, decide:
+**Step 1: List every implementation.** For each interface from Part 2, decide on a concrete implementation you want to have. For example:
 
-- The **CLI implementation**: e.g. a `TournamentRepository` that saves to a local file, or an `InMemoryTournamentRepository` that keeps tournaments in a list or map while the program runs.
+- A `TournamentRepository` interface that saves to a local file `FileTournamentRepository`, or an `InMemoryTournamentRepository` that keeps tournaments in a list or map while the program runs.
 
 Concrete implementations live outside the boundary. Presenters go in the existing `cli` directory. Every other implementation goes in a new, dedicated directory that the team creates and names for its role, such as `persistence/` for storage.
 
