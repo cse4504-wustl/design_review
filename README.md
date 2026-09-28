@@ -1,6 +1,6 @@
 # Application Design Review Studio
 
-In this studio, your team audits its request objects, discovers the abstract interfaces your use cases need, and assigns every concrete implementation to a named teammate. This corresponds to the "In class design in a feature branch" step of the workflow; all changes go into the `cli` branch.
+In this studio, your team will audit its request objects, discover the abstract interfaces your use cases need, and assign every concrete implementation to a named teammate. This corresponds to the "In class design in a feature branch" step of the workflow; all changes go into the `cli` branch.
 
 By the end of class, you should be able to:
 
@@ -10,9 +10,7 @@ By the end of class, you should be able to:
 
 **GenAI policy.** Same as the application design assignment: all design ideas and decisions come from the team. No GenAI for auditing, interface design or task splitting.
 
-**Keeping git simple.** Individual steps (1a, 2a) happen in a personal notes file outside the repo, so nothing is committed. `DESIGN.md` and `interfaces/` change only in team steps (1b, 2b, Part 3): one scribe edits, commits and pushes, and everyone else pulls. Since only one person pushes at a time, there are no merge conflicts to resolve.
-
-## Schedule
+## Overview and Schedule
 
 | Time (min) | Segment | Format | Output |
 | --- | --- | --- | --- |
@@ -26,9 +24,9 @@ By the end of class, you should be able to:
 
 After the first 20 minutes, every team starts Part 1 wherever it is. Before then, `DESIGN.md` must have:
 
-- [ ] **Use Cases**: request and response objects for all three user stories
-- [ ] **Use Case Response**: how use cases deliver the response
-- [ ] **Error Handling**: bad input and other failures, with examples
+- **Use Cases**: request and response objects for all three user stories
+- **Use Case Response**: how use cases deliver the response
+- **Error Handling**: bad input and other failures, with examples
 
 Coding standards, the `.gitignore` and entity files can be finished after class if needed; the studio does not depend on them.
 
@@ -171,9 +169,9 @@ Concrete implementations live outside the boundary. Presenters go in the existin
 
 ## Deliverables
 
-By the end of class, using the scribe-pushes, everyone-pulls routine from 1b, each team commits and pushes to the `cli` branch:
+By the end of class, the `cli` branch of your team repo must have::
 
-- [ ] **Use Cases** section of `DESIGN.md` updated with revised request objects, plus one line per use case on what changed after the audit (or "no change")
-- [ ] New **Interfaces** section in `DESIGN.md`: each interface, its methods in one line each, and which use cases depend on it
-- [ ] One file per interface in `interfaces/`, in the team's language, with the failure comment on each method
-- [ ] New **Interface Implementations** section in `DESIGN.md` with the owner list from Part 3, including each implementation's directory
+- **Use Cases** section of `DESIGN.md` updated with revised request objects, plus one line per use case on what changed after the audit (or "no change")
+- New **Interfaces** section in `DESIGN.md`: each interface, its methods in one line each, and which use cases depend on it
+- One file per interface in `interfaces/`, in the team's language, with the failure comment on each method
+- New **Interface Implementations** section in `DESIGN.md` with the owner list from Part 3, including each implementation's directory
