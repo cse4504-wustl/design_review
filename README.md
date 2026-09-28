@@ -6,7 +6,6 @@ By the end of class, you should be able to:
 
 1. Tell apart *user input* (what the controller can get from the person at the keyboard) from *system state* (what the application has stored), and keep system state out of request objects.
 2. Derive the interfaces a use case needs by walking through its steps, and define them from the use case's point of view rather than a technology's.
-3. Plan concrete implementations of those interfaces so that no teammate is blocked waiting on another.
 
 **GenAI policy.** Same as the application design assignment: all design ideas and decisions come from the team. No GenAI for auditing, interface design or task splitting.
 
